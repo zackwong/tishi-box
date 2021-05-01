@@ -1,0 +1,24 @@
+.tishi-box {
+  position: fixed;
+  opacity: 1;
+  bottom: 0px;
+  width: 100%;
+}
+.tishi {
+  padding: 5px 10px 3px 20px;
+  border: 1px solid #ffecb5;
+  background-color: #fff3cd;
+}
+input.cbox:checked ~ div.tishi,input.cbox:checked {
+  display: none;
+}
+.cbox {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  opacity: 0;
+  right: 0;
+}
+.text-right {
+  text-align: right;
+}
